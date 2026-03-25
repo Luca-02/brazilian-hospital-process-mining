@@ -1,2 +1,2 @@
 # brazilian-hospital-process-mining
-Process mining analysis of a Brazilian Emergency Room to optimize patient flow and reduce wait times.
+This is a master's degree project that was developed for the Business Information Systems course (A.Y 2025/26).
