@@ -5,6 +5,7 @@
 *.csv
 *.xes
 /data/
+/generated/
 
 ### JupyterNotebooks ###
 # gitignore template for Jupyter Notebooks
