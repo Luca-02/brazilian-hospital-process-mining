@@ -11,7 +11,7 @@ The analysis covers:
 - Conformance checking with both token-based replay and alignment-based methods
 - Statistical segmentation by case characteristics, disease type, readmission status, and physician workload
 
-Note: the dataset is not public, so is not present in the repository.
+> **Note**: the dataset is not public, so is not present in the repository.
 
 ---
 
@@ -99,8 +99,6 @@ Execute the notebooks in order:
 1. **`preprocessing.ipynb`** — cleans the raw dataset and generates `generated/preprocessed_dataset.csv`
 2. **`process_discovery.ipynb`** — discovers Petri nets and performs conformance checking
 3. **`segment_analysis.ipynb`** — performs statistical segmentation and KPI analysis
-
-> **Note**: Place the raw event log at `data/dataset.csv` before running `preprocessing.ipynb`.
 
 ---
 
