@@ -11,16 +11,14 @@ The analysis covers:
 - Conformance checking with both token-based replay and alignment-based methods
 - Statistical segmentation by case characteristics, disease type, readmission status, and physician workload
 
+Note: the dataset is not public, so is not present in the repository.
+
 ---
 
 ## 📁 Repository Structure
 
 ```
 brazilian-hospital-process-mining/
-├── data/
-│   └── dataset.csv                 # Raw hospital event log
-├── generated/
-│   └── preprocessed_dataset.csv   # Cleaned event log (output of preprocessing)
 ├── preprocessing.ipynb             # Data cleaning and preparation
 ├── process_discovery.ipynb         # Petri net discovery and conformance checking
 ├── segment_analysis.ipynb          # Statistical segmentation and KPI analysis
